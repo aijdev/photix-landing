@@ -1,0 +1,25 @@
+# Photix
+
+> Photix is a free iOS app (iPhone and iPad) for AI image creation. It bundles three creative modes: AI Generate (text-to-image with ten curated art styles), AI Edit (change any photo by describing the edit conversationally), and AI Avatar (turn a selfie into themed portraits — superhero, anime, Renaissance, and more). No design skills or account required. Free to try; Photix PRO removes watermarks, ads, and limits.
+
+Photix is part of the AI Photo Journey family of AI creativity apps (https://ai-photo-journey.com).
+
+## Key pages
+
+- [Home](https://photix.app/): What Photix does and why people love it
+- [Features](https://photix.app/features): Overview of the creative modes
+- [AI Image Generator](https://photix.app/features/ai-image-generator): Text-to-image generation
+- [AI Photo Editor](https://photix.app/features/ai-photo-editor): Conversational photo editing
+- [AI Avatar Maker](https://photix.app/features/ai-avatar): Themed portraits from one selfie
+- [Art Styles](https://photix.app/features/art-styles): The ten curated style recipes
+- [Avatar Ideas](https://photix.app/avatar-ideas): Inspiration for what to become first
+- [Use Cases](https://photix.app/use-cases): Who uses Photix and for what
+- [FAQ](https://photix.app/faq): Common questions, PRO, privacy, and billing
+- [About](https://photix.app/about): The team and the AI Photo Journey family
+
+## Facts
+
+- Platform: iOS (iPhone and iPad), download at https://apps.apple.com/us/app/image-generator-photix/id6745130814
+- No account or login required
+- Free tier with watermark and ads; PRO removes both and lifts limits
+- Sibling apps: FxAI (https://fxai.app), Videx (https://videx.app), SwapTo (https://swapto.app), PicAlive (https://picalive.app)

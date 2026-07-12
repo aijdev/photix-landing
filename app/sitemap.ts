@@ -6,8 +6,6 @@ import { FEATURES } from "./lib/content";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
-
   const staticRoutes: {
     path: string;
     priority: number;
@@ -20,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/faq", priority: 0.7, changeFrequency: "monthly" },
     { path: "/about", priority: 0.5, changeFrequency: "yearly" },
     { path: "/privacy", priority: 0.4, changeFrequency: "yearly" },
+    { path: "/terms", priority: 0.4, changeFrequency: "yearly" },
     { path: "/contact", priority: 0.4, changeFrequency: "yearly" },
   ];
 
@@ -31,7 +30,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticRoutes, ...featureRoutes].map((route) => ({
     url: route.path === "/" ? SITE_URL : `${SITE_URL}${route.path}`,
-    lastModified,
     changeFrequency: route.changeFrequency,
     priority: route.priority,
   }));

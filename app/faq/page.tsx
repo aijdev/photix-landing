@@ -12,7 +12,7 @@ import { JsonLd } from "../components/JsonLd";
 export const metadata: Metadata = buildMetadata({
   title: "Frequently Asked Questions",
   description:
-    "Answers to common questions about Photix — how the AI image generator, photo editor, and avatar maker work, pricing and Photix PRO, privacy and safety, and getting started on iPhone and iPad.",
+    "Answers to common questions about Photix — how the AI image generator, photo editor, and avatar maker work, Photix PRO, privacy and safety, and getting started on iPhone and iPad.",
   path: "/faq",
   keywords: ["Photix FAQ", "AI image app help", "Photix PRO questions"],
 });
@@ -29,7 +29,7 @@ export default function FaqPage() {
           { name: "Home", path: "/" },
           { name: "FAQ", path: "/faq" },
         ]}
-        intro="Everything you might want to know about Photix — from how each creative mode works to pricing, privacy, and billing."
+        intro="Everything you might want to know about Photix — from how each creative mode works to Photix PRO, privacy, and billing."
       />
 
       <Section>

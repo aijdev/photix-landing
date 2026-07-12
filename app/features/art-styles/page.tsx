@@ -10,6 +10,7 @@ import { StyleGrid } from "../../components/StyleGrid";
 import { CheckList } from "../../components/CheckList";
 import { Button } from "../../components/Button";
 import { AppStoreButton } from "../../components/AppStoreButton";
+import { RelatedFeatures } from "../../components/RelatedFeatures";
 import { CTA } from "../../components/CTA";
 import { JsonLd } from "../../components/JsonLd";
 
@@ -99,6 +100,8 @@ export default function ArtStylesPage() {
           <StyleGrid detailed />
         </div>
       </Section>
+
+      <RelatedFeatures currentSlug="art-styles" />
 
       <CTA
         title="Try every style free"

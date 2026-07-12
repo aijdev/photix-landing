@@ -12,6 +12,7 @@ import { StyleGrid } from "../../components/StyleGrid";
 import { Button } from "../../components/Button";
 import { AppStoreButton } from "../../components/AppStoreButton";
 import { FaqList } from "../../components/Faq";
+import { RelatedFeatures } from "../../components/RelatedFeatures";
 import { CTA } from "../../components/CTA";
 import { JsonLd } from "../../components/JsonLd";
 
@@ -207,6 +208,8 @@ export default function AiImageGeneratorPage() {
           <FaqList items={relatedFaqs} />
         </div>
       </Section>
+
+      <RelatedFeatures currentSlug="ai-image-generator" />
 
       <CTA
         title="Generate your first image free"

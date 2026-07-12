@@ -11,6 +11,7 @@ import { Screenshot } from "../../components/Screenshot";
 import { CheckList } from "../../components/CheckList";
 import { AppStoreButton } from "../../components/AppStoreButton";
 import { FaqList } from "../../components/Faq";
+import { RelatedFeatures } from "../../components/RelatedFeatures";
 import { CTA } from "../../components/CTA";
 import { JsonLd } from "../../components/JsonLd";
 
@@ -164,11 +165,39 @@ export default function AiAvatarPage() {
       </Section>
 
       <Section className="bg-surface">
+        <div className="card relative overflow-hidden p-8 sm:p-10">
+          <div className="brand-glow pointer-events-none absolute inset-0 opacity-50" />
+          <div className="relative flex flex-col gap-4">
+            <span className="eyebrow">Want scene swaps too?</span>
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+              Prefer stepping into real scenes? Meet SwapTo
+            </h2>
+            <p className="max-w-2xl leading-relaxed text-muted">
+              Photix avatars reimagine you as art. If you&apos;d also like to
+              place your face into hundreds of professionally shot,
+              photorealistic scenes — headshots, vacations, red carpets — try{" "}
+              <a
+                href="https://swapto.app/features/ai-avatar"
+                target="_blank"
+                rel="noopener"
+                className="font-medium text-brand underline-offset-4 hover:underline"
+              >
+                SwapTo&apos;s AI avatar and face swap
+              </a>{" "}
+              — built by the same AI Journey team.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <Section>
         <SectionHeading eyebrow="FAQ" title="AI avatar questions" />
         <div className="mx-auto mt-12 max-w-3xl">
           <FaqList items={relatedFaqs} />
         </div>
       </Section>
+
+      <RelatedFeatures currentSlug="ai-avatar" />
 
       <CTA
         title="Make your AI avatar free"
